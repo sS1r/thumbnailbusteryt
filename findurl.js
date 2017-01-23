@@ -1,3 +1,4 @@
+//Find the thumbnail URL
 function getThumbnailURL(linkUrl)
 {
     var sstr = '<link itemprop="thumbnailUrl" href=';
@@ -33,6 +34,7 @@ function getThumbnailURL(linkUrl)
     return rstr;
 }
 
+//Listener
 function handleMessage(request, sender, sendResponse) 
 {
     console.log("Received link to video: " + request.message);
@@ -40,4 +42,5 @@ function handleMessage(request, sender, sendResponse)
     sendResponse({response : thumbnailUrl});
 }
 
+//Wait for video URL from the content script
 browser.runtime.onMessage.addListener(handleMessage);

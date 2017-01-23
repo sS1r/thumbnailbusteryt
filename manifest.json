@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "ThumbnailBusterYT",
   "version": "0.1",
-  "description": "View Youtube video thumbnails with max resolution",
+  "description": "View Youtube video thumbnails with max resolution \nRight click a video link and press 'View thumbnail'",
 
   "permissions": [
     "contextMenus",
@@ -12,7 +12,7 @@
   ],
   
   "background": {
-    "scripts": ["vtn.js"]
+    "scripts": ["viewtn.js"]
   },
 
   "content_scripts": [
