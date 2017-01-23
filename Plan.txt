@@ -1,0 +1,14 @@
+Create an extension that views/downloads Youtube thumbnails.
+
+Function:
+
+	1. Hover mouse over YT video
+	2. Right-click video
+	3. If it is a YT video:
+		4. Get video URL
+		5. Load video page content
+		6. Find "thumbnailUrl"
+		7. Load thumbnail URL and the Image
+		8. Display image/download it
+	9. Done
+	

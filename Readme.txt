@@ -1,0 +1,1 @@
+This is a working version of the thumbnail viewer; it loads the whole video page to get the thumbnail url
